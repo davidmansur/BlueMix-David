@@ -4,23 +4,56 @@
 	<title>Java Web Starter Application</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="dropdown.css" />
 </head>
 <body>
+<table width="100%">
+	<tr>
+		<td width="10%"><img src="images/ibm1.png"></td>
+		<td width="80%"><center><h1><b>Feira de Alimentos Sobressalentes</b></h1></center></td>
+		<td width="10%"><img src="images/doacao-alimentos1.png"></td>
+	</tr>
+</table>
+<p><p>
+<table border="0">
+	<tr>
+		<td width="12%">
+			<div class="dropdown">
+				<button class="dropbtn">Quero Doar</button>
+				<div class="dropdown-content">
+					<a href="doar/doador.html">Cadastro Doador</a>
+					<a href="doar/doacao.html">Cadastro Alimentos</a>
+					<a href="#">Verificar interesse</a>
+				</div>
+			</div> 
+		</td>
+		<td width="1px">
+			<div class="dropdown">
+				<button class="dropbtn">Quero Receber</button>
+				<div class="dropdown-content">
+					<a href="receber/receber.html">Cadastro Instituição</a>
+					<a href="receber/doacao.html">Verificar Ofertas</a>
+				</div>
+			</div>
+		</td>
+	</tr>
+</table>
+<!-- 
 	<table>
 		<tr>
 			<td style='width: 30%;'>
 				<img class = "newappIcon" src='images/newapp-icon.png'>
 			</td>
-			<td>
+			<td> -->
 				<!-- The "Hello World!" message comes from /SimpleServlet -->
 				<!-- <h1 id = "message"></h1> -->
-				<h3 id="message"> Wait... Processing...</h3>
+				<!-- <h3 id="message"> Wait... Processing...</h3> -->
 				
 				<!-- <p class='description'></p> Thanks for creating a <span class="blue">Liberty for Java Starter Application</span>. -->
-			</td>
+			<!-- </td>
 		</tr>
-	</table>
+	</table> -->
 	<!-- Call SimpleServlet to get the "Hello World" message  -->
-	<script type="text/javascript" src="index.js"></script>
+	<!-- <script type="text/javascript" src="index.js"></script>  -->  
 </body>
 </html>

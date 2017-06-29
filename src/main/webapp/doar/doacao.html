@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Java Web Starter Application</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link rel="stylesheet" href="../style.css" />
+	<link rel="stylesheet" href="../dropdown.css" />
+</head>
+<body>
+<table width="100%">
+	<tr>
+		<td width="10%"><img src="../images/ibm1.png"></td>
+		<td width="80%"><center><h1><b>Feira de Alimentos Sobressalentes</b></h1></center></td>
+		<td width="10%"><img src="../images/doacao-alimentos1.png"></td>
+	</tr>
+</table>
+<p><p><p><p><p><p>
+<table height="100px">
+	<tr>
+		<td width="12%">
+			<div class="dropdown">
+				<button class="dropbtn">Quero Doar</button>
+				<div class="dropdown-content">
+					<a href="../doar/doador.html">Cadastro Doador</a>
+					<a href="../doar/doacao.html">Cadastro Alimentos</a>
+					<a href="#">Verificar interesse</a>
+				</div>
+			</div> 
+		</td>
+		<td width="1px">
+			<div class="dropdown">
+				<button class="dropbtn">Quero Receber</button>
+				<div class="dropdown-content">
+					<a href="../receber/receber.html">Cadastro Instituição</a>
+					<a href="../receber/doacao.html">Verificar Ofertas</a>
+				</div>
+			</div>
+		</td>
+	</tr>
+	</table>
+	<h1 style="color: #FFFF00">Informe os dados do(s) alimento(s) para doação</h1>
+	<table border="1">
+	<tr><td>Descrição do Alimento: </td><td><input type="text" id="nomedoacao"></td></tr>
+	<tr><td>Quantidade de Itens: </td><td><input type="number" id="enddoacao"></td></tr>
+	<tr><td>Peso (g): </td><td><input type="number" id="pesodoacao"></td></tr>
+	<tr><td>Refeição Pronta: </td><td><input type="checkbox" id="refpronta"></td></tr>
+	<tr><td>Validade: </td><td><input type="date" id="valdoacao"></td></tr>
+	<tr><td>Posso entregar: </td><td><input type="radio" id="entregasim">Sim <input type="radio" id="entreganao">Não</td></tr>
+	<tr><td> </td><td> <input type="submit" value="Incluir"></td></tr>
+</table>
+<p>
+<table border="1">
+	<tr>
+		<td>Item</td>
+		<td>Qtde</td>
+		<td>Peso (g)</td>
+		<td>Pronta?</td>
+		<td>Validade</td>
+		<td>Entrego?</td>
+	</tr>
+	<tr>
+		<td>Arroz Raroz</td>
+		<td>2</td>
+		<td>10000</td>
+		<td>Não</td>
+		<td>15/07/2017</td>
+		<td>Sim</td>
+	</tr>
+</table>
+<p><p>
+<input type="submit" value="Enviar">
+</body>
+</html>

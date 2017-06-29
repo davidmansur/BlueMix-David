@@ -61,10 +61,10 @@ h1 {
 
 table {
 	table-layout: fixed;
-	width: 800px;
+	width: 100%;
 	margin: 0 auto;
 	word-wrap: break-word;
-	padding-top:10%;
+	padding-top:0%;
 }
 
 th {
